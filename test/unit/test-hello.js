@@ -16,7 +16,7 @@ exports.it_should_test_hello_GET = function(finish) {
 
   // Note we have no requires in hello.js to stub out.
   // For more information on using proxyquire, see: https://github.com/thlorenz/proxyquire
-  var hello = proxyquire('lib/hello.js', {})();
+  var hello = proxyquire('lib/hello.js', {});
 
   // mock request
   var req = {
@@ -52,7 +52,7 @@ exports.it_should_test_hello_POST = function(finish) {
 
   // Note we have no requires in hello.js to stub out.
   // For more information on using proxyquire, see: https://github.com/thlorenz/proxyquire
-  var hello = proxyquire('lib/hello.js', {})();
+  var hello = proxyquire('lib/hello.js', {});
 
   // mock request
   var req = {
@@ -87,7 +87,7 @@ exports.it_should_test_hello_GET_no_params = function(finish) {
 
   // Note we have no requires in hello.js to stub out.
   // For more information on using proxyquire, see: https://github.com/thlorenz/proxyquire
-  var hello = proxyquire('lib/hello.js', {})();
+  var hello = proxyquire('lib/hello.js', {});
 
   // mock request
   var req = {
@@ -120,7 +120,7 @@ exports.it_should_test_hello_POST_no_params = function(finish) {
 
   // Note we have no requires in hello.js to stub out.
   // For more information on using proxyquire, see: https://github.com/thlorenz/proxyquire
-  var hello = proxyquire('lib/hello.js', {})();
+  var hello = proxyquire('lib/hello.js', {});
 
   // mock request
   var req = {
