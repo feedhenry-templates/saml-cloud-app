@@ -1,4 +1,5 @@
 # FeedHenry SSO PoC
+[![Dependency Status](https://img.shields.io/david/feedhenry-templates/saml-cloud-app.svg?style=flat-square)](https://david-dm.org/feedhenry-templates/saml-cloud-app)
 
 This is an example SAML Cloud App, designed to be used in conjunction with our sample SAML Service. The Cloud App here only proxies calls from client to an SAML Service (e.g. fetching a URL to display in the WebView for IdP login).
 You must provide set a SAML_SERVICE environment variable with an appropriate SAML Service ID for this to work.
