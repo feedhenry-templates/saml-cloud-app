@@ -44,3 +44,19 @@ Session check endpoint
     + Body
             {
             }
+
+## Tests
+
+All the tests are in the "test/" directory. The cloud app is using mocha as the test runner. 
+
+### Unit and acceptance tests
+
+```shell
+npm test
+```
+
+### Code coverage
+
+```shell
+npm run coverage
+```
