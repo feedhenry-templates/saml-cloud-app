@@ -3,10 +3,10 @@
   "version": "0.3.0",
   "dependencies": {
     "body-parser": "~1.0.2",
-    "cors": "~2.2.0",
-    "express": "~4.0.0",
-    "request": "2.79.0",
-    "fh-mbaas-api": "~7.0.9"
+    "cors": "~2.8.3",
+    "express": "~4.15.3",
+    "request": "2.81.0",
+    "fh-mbaas-api": "~7.0.10"
   },
   "devDependencies": {
     "grunt": "^0.4.0",
@@ -31,9 +31,15 @@
   "main": "application.js",
   "scripts": {
     "test": "grunt test",
+    "unit": "grunt unit",
+    "accept": "grunt accept",
     "coverage": "grunt coverage",
-    "debug": "grunt serve",
-    "start": "node application.js"
+    "coverage-unit": "grunt coverage-unit",
+    "coverage-accept": "grunt coverage-accept",
+    "debug": "grunt debug",
+    "serve": "grun serve",
+    "start": "node application.js",
+    "analysis": "grunt analysis"
   },
-  "license": "mit"
+  "license": "Apache-2.0"
 }
