@@ -62,7 +62,7 @@ Start MongoDB server with:
 mongod
 ```
 
-By default, the SAML server will try to access MongoDB on port `11211`, if you are running MongoDB on a different port you should set the `FH_MONGODB_CONN_URL` environment variable to the MongoDB connection URL.
+By default, the SAML server will try to access MongoDB on port `27017`, if you are running MongoDB on a different port you should set the `FH_MONGODB_CONN_URL` environment variable to the MongoDB connection URL.
 
 ### Setup Redis
 
@@ -76,7 +76,7 @@ redis-server /usr/local/etc/redis.conf
 ### Start the server
 
 ```shell
-grunt serve
+npm run serve
 ```
 
 The SAML server will be availble at `localhost:8001`.
