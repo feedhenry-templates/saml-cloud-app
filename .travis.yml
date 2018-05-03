@@ -11,5 +11,4 @@ node_js:
 before_install:
   - npm install fh-build -g
   - fh-build template
-install:
-  - npm install
+install: npm install
